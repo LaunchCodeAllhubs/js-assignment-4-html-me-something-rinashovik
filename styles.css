@@ -1,19 +1,48 @@
 /* Write your CSS here! */
 
 body{
-    font-family: "Tahoma";
+    background-color: rgb(237, 243, 243);
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 100px;
+    border-bottom: 100px;
+    border-left: 75px;
+    border-right: 150px;
+    border-style: ridge;
     display: block;
     margin: 8px;
 
 }
 
  #mainHeading{
-text-align: center;
+    text-align: center;
     color: red;
+
 }
 .funParagraph{
+    font-size: x-large;
     color: green;
+    border-style:inset
+
+}
+#intro{
+    color: brown;
+
+}
+
+.hi-light{
+padding: auto;
+
+
 }
 #images{
     position: relative;
+}
+.image-line{
+    margin-left: 250px;
+}
+
+
+p{
+    font-size: large;
+    padding: auto;
 }
