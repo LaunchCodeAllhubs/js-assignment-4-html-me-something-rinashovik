@@ -1,1 +1,19 @@
 /* Write your CSS here! */
+
+body{
+    font-family: "Tahoma";
+    display: block;
+    margin: 8px;
+
+}
+
+ #mainHeading{
+text-align: center;
+    color: red;
+}
+.funParagraph{
+    color: green;
+}
+#images{
+    position: relative;
+}
