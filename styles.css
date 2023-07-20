@@ -1,190 +1,47 @@
 
-/* Write your CSS here! */
-
-body {
-  background-color: white;
-  font-family: Tahoma, sans-serif;
-  font-size: 12pt;
-  font-weight: 400;
-  color: #222;
-  width: 100vw;
-  height: 100vh;
-  padding: 0px;
-  overflow-x: hidden;
+body{
+  background-color: rgb(237, 243, 243);
+  font-family: 'Times New Roman', Times, serif;
+  border-top: 100px;
+  border-bottom: 100px;
+  border-left: 75px;
+  border-right: 150px;
+  border-style: ridge;
   display: block;
   margin: 8px;
 
 }
 
-header {
-  background-color: yellow;
-  position: relative;
-height: 200px;
-width: 100vw; 
-margin: 0px;
-  padding: 0px;
-
-}
-
-#mainHeading {
-      color: red;
-      text-align: center;
-      margin: 0px;
-      padding-top: 20px;
-}
-
-p {  
-  text-align: justify;
-  margin: 15px 0px;
-} 
-
-.funParagraph{
-  font-size: large;
-  color: green;
-
-}
-
-#testP:hover {
-  background-color: yellowgreen;
-}
-
-
-#sub-title{
-  color: white;
-  font-family: cursive;
-  font-size: 2rem;
-  font-weight: 600px;
+#mainHeading{
   text-align: center;
-
+  color: red;
 
 }
-
-main {
-  display: flex;
-flex-direction: column;
-position: relative;
-background-color: white;
-width: 100vw;
-margin: 0px 0px;
-padding: 10px 160px 20px; 
-  box-sizing: border-box;
-}
-
-
-div {
-position: relative;
-margin: 0px;
-padding: 10px 0px;  
-box-sizing: border-box; 
-}
-
-h1 {
- /* color: coral;*/
-  font-size: 3.5rem;
-  font-family:'Satisfy', cursive;
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: 800;
-  font-style: oblique;
+.funParagraph{
   font-size: x-large;
-  text-transform: uppercase;
-}
-
-h3 {
-  color: chocolate;
-  font-size: 1.5rem;
-font-family: 'Satisfy', cursive;
-  font-weight: 600;
+  color: green;
+  border-style:inset
 
 }
-
-h4 {
-  font-family: cursive;
-  font-size: 2rem;
-  font-weight: 500;
-  color: #4a6903;
+#intro{
+  color: brown;
 
 }
-.list-item {
-  color: #0f13f1;
+
+.hi-light{
+padding: auto;
+
+
+}
+#images{
+  position: relative;
+}
+.image-line{
+  margin-left: 250px;
+}
+
+
+p{
   font-size: large;
-  font-style: oblique;
-  font-weight: bold;
-}
-
-footer {
-  background-color: rgb(121, 118, 118);
-  font-family: 'Satisfy', cursive;
-  position: relative;
-  height: 4rem;
-  width: 100vw;
-  margin: 0px;
-  padding: 20px;
-}
-
-/* #intro{
   padding: auto;
-  box-shadow: inset;
-
-} */
-
-p#testP::first-letter {
-  color: #ff9100e7;
-  font-size: 200%;
-}
-
-.image-culture{
-
-  position: relative;
-  width: auto;
-  margin-right: auto;
-  display: flexbox;
-
-}
-
-.image-culture-left {
-  float: left;
-  display: table;
-margin-right: 30px;
-}
-
-.image-culture-right {
-  display: table;
-  float: right;
-margin-left: 30px;
-}
-
-.image-food {
-
-      position: relative;
-      width: 400px;
-      height: 200px;
-      margin-left:auto;
-      margin-right: auto;
-      display: flexbox;
-  
-  } 
-
-img.right {
-  height: auto;
-  width: 400px;
-  display: table-column;
-float: right;
-margin-left: 50px;
-}
-
-img.left {
-  height: auto;
-  width: 400px;	
-float: left;
-margin-right: 50px;
-} 
-
-hr { 
-height: .8rem;
-background-color: #F1C40F;
-border: none;
-margin: 0px; 
 }
