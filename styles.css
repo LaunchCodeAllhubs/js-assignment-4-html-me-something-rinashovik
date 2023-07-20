@@ -14,7 +14,7 @@ body{
   margin: 8px;
 
 }
-header{
+/* header{
   background-color: yellow;
   position: relative;
 height: 200px;
@@ -22,7 +22,7 @@ width: 100vw;
 margin: 0px;
   padding: 0px;
 
-}
+} */
 
 #mainHeading{
   text-align: center;
