@@ -1,6 +1,6 @@
 /* Write your CSS here! */
 
-body {
+body{
     background-color: white;
     font-family: Tahoma, sans-serif;
     font-size: 12pt;
@@ -15,7 +15,7 @@ body {
 
 }
 
- header {
+ header{
     background-color: yellow;
     position: relative;
 	height: 200px;
@@ -25,25 +25,28 @@ body {
 
 }
 
-#mainHeading {
+#mainHeading{
         color: red;
         text-align: center;
         margin: 0px;
         padding-top: 20px;
 }
 
- p {  
+ p{  
     text-align: justify;
     margin: 15px 0px;
 } 
 
 .funParagraph{
-    font-size: large;
+    font-size: medium;
     color: green;
 
 }
+#testP{
+    font-weight: 400px;
+}
 
-#testP:hover {
+#testP:hover{
     background-color: yellowgreen;
 }
 
@@ -58,7 +61,7 @@ body {
 
 }
 
-main {
+main{
     display: flex;
 	flex-direction: column;
 	position: relative;
@@ -70,20 +73,20 @@ main {
 }
 
 
-div {
+div{
 	position: relative;
 	margin: 0px;
 	padding: 10px 0px;  
 	box-sizing: border-box; 
 }
 
-h1 {
-   /* color: coral;*/
+h1{
+
     font-size: 3.5rem;
     font-family:'Satisfy', cursive;
 }
 
-h2 {
+h2{
     font-size: 2rem;
     font-weight: 800;
     font-style: oblique;
@@ -91,7 +94,7 @@ h2 {
     text-transform: uppercase;
 }
 
-h3 {
+h3{
     color: chocolate;
     font-size: 1.5rem;
 	font-family: 'Satisfy', cursive;
@@ -99,21 +102,21 @@ h3 {
 
 }
 
-h4 {
+h4{
     font-family: cursive;
     font-size: 2rem;
     font-weight: 500;
     color: #4a6903;
 
 }
-.list-item {
+.list-item{
     color: #0f13f1;
     font-size: large;
     font-style: oblique;
     font-weight: bold;
 }
 
-footer {
+footer{
     background-color: rgb(121, 118, 118);
     font-family: 'Satisfy', cursive;
     position: relative;
@@ -129,7 +132,7 @@ footer {
 
 } */
 
-p#testP::first-letter {
+p#testP::first-letter{
     color: #ff9100e7;
     font-size: 200%;
   }
@@ -143,19 +146,19 @@ p#testP::first-letter {
 
 }
 
-.image-culture-left {
+.image-culture-left{
     float: left;
     display: table;
 margin-right: 30px;
 }
 
-.image-culture-right {
+.image-culture-right{
     display: table;
     float: right;
 margin-left: 30px;
 }
 
-.image-food {
+.image-food{
 
         position: relative;
         width: 400px;
@@ -166,7 +169,7 @@ margin-left: 30px;
     
     } 
 
-img.right {
+img.right{
     height: auto;
     width: 400px;
     display: table-column;
@@ -174,14 +177,14 @@ img.right {
 	margin-left: 50px;
 }
 
-img.left {
+img.left{
     height: auto;
     width: 400px;	
 	float: left;
 	margin-right: 50px;
 } 
 
-hr { 
+hr{ 
 	height: .8rem;
 	background-color: #F1C40F;
 	border: none;
