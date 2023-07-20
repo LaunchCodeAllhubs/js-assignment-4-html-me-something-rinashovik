@@ -1,28 +1,61 @@
 
 
 body{
-  background-color: rgb(237, 243, 243);
+  background-color: white;
   font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  font-weight: 400;
+  color: #222;
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  overflow-x: hidden;
+  display: block;
+  margin: 8px;
+/* 
   border-top: 100px;
   border-bottom: 100px;
   border-left: 75px;
   border-right: 150px;
   border-style: ridge;
   display: block;
-  margin: 8px;
+  margin: 8px; */
+
+}
+
+header{
+  background-color: yellow;
+  position: relative;
+height: 200px;
+width: 100vw; 
+margin: 0px;
+  padding: 0px;
 
 }
 
 #mainHeading{
-  text-align: center;
-  color: red;
+      color: red;
+      text-align: center;
+      margin: 0px;
+      padding-top: 20px;
+}
+
+p{  
+  text-align: justify;
+  margin: 15px 0px;
+} 
+
+.funParagraph{
+  font-size: medium;
+  color: green;
 
 }
-.funParagraph{
-  font-size: x-large;
-  color: green;
-  border-style:inset
+#testP{
+  font-weight: 400px;
+}
 
+#testP:hover{
+  background-color: yellowgreen;
 }
 #intro{
   color: brown;
